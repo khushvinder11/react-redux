@@ -1,0 +1,76 @@
+.form-container {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e3d9d9;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  color: #6e6969;
+}
+
+input[type="date"],
+select {
+  color: #6e6969;
+}
+
+button {
+  background-color: #1f627d;
+  color: white;
+  padding: 9px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 48%;
+  border-radius: 50%;
+}
+
+.input-field-container {
+  width: 60%;
+}
+
+.gender-field {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+}
+
+span.ant-radio + * {
+  font-size: 13px;
+  color: #6e6969;
+  margin: 10px 0;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
